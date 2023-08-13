@@ -5,3 +5,6 @@ so we need to install the header: \
 sudo pacman -S linux-neptune-headers
 ```
 if you dont have pacman in steamos, you can search on google.
+
+# CH343
+https://github.com/WCHSoftGroup/ch343ser_linux
