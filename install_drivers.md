@@ -8,3 +8,13 @@ if you dont have pacman in steamos, you can search on google.
 
 # CH343
 https://github.com/WCHSoftGroup/ch343ser_linux
+
+# Change Serials ID
+```shell
+#search serial info
+udevadm info --attribute-walk --name=/dev/ttyUSB0
+#creat rules
+sudo gedit /etc/udev/rules.d/xxx.rules #any name
+#INPUT,accroding special serial info find the serial and change it 
+KERNELS=="xxx", MODE:="0777", GROUP:="xxxxx", SYMLINK+="xxxxxxx"
+```
