@@ -17,4 +17,5 @@ udevadm info --attribute-walk --name=/dev/ttyUSB0
 sudo gedit /etc/udev/rules.d/xxx.rules #any name
 #INPUT,accroding special serial info find the serial and change it 
 KERNELS=="xxx", MODE:="0777", GROUP:="xxxxx", SYMLINK+="xxxxxxx"
+#SYMLINK is another name to visit serial
 ```
