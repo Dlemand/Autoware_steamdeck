@@ -1,3 +1,3 @@
 1. Lidar-IMU
-2. IMU-Odometyr
+2. IMU-Odometry
 3. IMU-GPS
