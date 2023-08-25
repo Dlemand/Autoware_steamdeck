@@ -15,4 +15,4 @@ Hope this project has a good result!
 reference: \
 Distrobox : https://github.com/89luca89/distrobox \
 Autoware : https://github.com/autowarefoundation/autoware \
-Use Deck Controller in ROS: https://github.com/ctu-vras/steam-deck-ros-controller
+Use ROS In SteamOS(not docker): https://github.com/ctu-vras/steam-deck-ros-controller
